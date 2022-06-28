@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1084134b-48a4-428b-a27b-62480ef1b9b6" name="Default Changelist" comment="" />
+    <list default="true" id="1084134b-48a4-428b-a27b-62480ef1b9b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/buba/springcloud/orde/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/buba/springcloud/order/OrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/buba/springcloud/orde/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/buba/springcloud/order/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/buba/springcloud/orde/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/buba/springcloud/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment/src/main/java/com/buba/springcloud/PayMentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment/src/main/java/com/buba/springcloud/PayMentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment/target/classes/com/buba/springcloud/PayMentMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment/target/classes/com/buba/springcloud/PayMentMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment/target/classes/com/buba/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment/target/classes/com/buba/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2BBjgAs7ncDOwvK2v3SbkwmLKfn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,15 +67,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OrderMain">
+    <configuration name="EurekaMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buba.springcloud.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.buba.springcloud.eureka.EurekaMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.buba.springcloud.orde.*" />
+          <option name="PATTERN" value="com.buba.springcloud.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.buba.springcloud.orde.OrderMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.buba.springcloud.order.OrderMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +110,7 @@
       <list>
         <item itemvalue="Spring Boot.OrderMain" />
         <item itemvalue="Spring Boot.PayMentMain" />
+        <item itemvalue="Spring Boot.EurekaMain" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656386480617</updated>
-      <workItem from="1656386483238" duration="3625000" />
+      <workItem from="1656386483238" duration="6837000" />
     </task>
     <servers />
   </component>
@@ -99,41 +132,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1656400458784">
+    <state width="914" height="502" key="GridCell.Tab.0.bottom" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458784" />
-    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1656400458783">
+    <state width="914" height="502" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state width="914" height="502" key="GridCell.Tab.0.center" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458783" />
-    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1656400458783">
+    <state width="914" height="502" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state width="914" height="502" key="GridCell.Tab.0.left" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458783" />
-    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1656400458783">
+    <state width="914" height="502" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state width="914" height="502" key="GridCell.Tab.0.right" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458783" />
-    <state width="1877" height="331" key="GridCell.Tab.1.bottom" timestamp="1656400458784">
+    <state width="914" height="502" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state width="914" height="502" key="GridCell.Tab.1.bottom" timestamp="1656407129786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458784" />
-    <state width="1877" height="331" key="GridCell.Tab.1.center" timestamp="1656400458784">
+    <state width="914" height="502" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129786" />
+    <state width="914" height="502" key="GridCell.Tab.1.center" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458784" />
-    <state width="1877" height="331" key="GridCell.Tab.1.left" timestamp="1656400458784">
+    <state width="914" height="502" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state width="914" height="502" key="GridCell.Tab.1.left" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458784" />
-    <state width="1877" height="331" key="GridCell.Tab.1.right" timestamp="1656400458784">
+    <state width="914" height="502" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state width="914" height="502" key="GridCell.Tab.1.right" timestamp="1656407129785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656400458784" />
-    <state x="669" y="234" width="1251" height="521" key="new project wizard" timestamp="1656400018553">
+    <state width="914" height="502" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1656407129785" />
+    <state x="669" y="385" width="1251" height="521" key="new project wizard" timestamp="1656401933872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="234" width="1251" height="521" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1656400018553" />
+    <state x="669" y="385" width="1251" height="521" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1656401933872" />
   </component>
 </project>

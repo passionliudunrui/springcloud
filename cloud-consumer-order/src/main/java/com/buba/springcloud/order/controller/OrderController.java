@@ -1,4 +1,4 @@
-package com.buba.springcloud.orde.controller;
+package com.buba.springcloud.order.controller;
 
 import com.buba.springcloud.pojo.CommonResult;
 import com.buba.springcloud.pojo.Payment;

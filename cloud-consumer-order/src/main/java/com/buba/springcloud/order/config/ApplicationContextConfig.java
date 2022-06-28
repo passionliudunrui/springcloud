@@ -1,4 +1,4 @@
-package com.buba.springcloud.orde.config;
+package com.buba.springcloud.order.config;
 
 
 import org.springframework.context.annotation.Bean;

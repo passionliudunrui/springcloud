@@ -1,4 +1,4 @@
-package com.buba.springcloud.orde;
+package com.buba.springcloud.order;
 
 
 
