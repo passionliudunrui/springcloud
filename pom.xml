@@ -13,6 +13,8 @@
         <module>cloud-provider-payment</module>
         <module>cloud-consumer-order</module>
         <module>cloud-eureka-server</module>
+        <module>cloud-eureka-server2</module>
+        <module>cloud-provider-payment2</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

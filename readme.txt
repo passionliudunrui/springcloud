@@ -5,3 +5,7 @@
 
     小tips：
     前端传入参数  使用{id} @PathVariable Integer id 来完成
+
+2022.6.28
+    实现了Eureka的部署调试
+
