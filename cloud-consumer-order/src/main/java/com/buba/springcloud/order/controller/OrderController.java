@@ -15,6 +15,7 @@ public class OrderController {
     //调用支付订单服务端的ip+端口号   固定的访问端口
     //public static final  String PAYMENT_URL = "http://localhost:8001";
 
+    //换成了生产者的服务名称就可以实现
     public static final String PAYMENT_URL="http://MCROSERVICE-PAYMENT";
 
     @Autowired

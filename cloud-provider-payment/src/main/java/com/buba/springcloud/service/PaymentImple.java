@@ -17,6 +17,8 @@ public class PaymentImple implements PaymentService {
 
     @Override
     public Payment queryById(long id) {
+
+
         return paymentDao.queryById(id);
     }
 }

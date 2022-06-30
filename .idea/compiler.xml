@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
+        <module name="cloud-consumer-feign-order" />
         <module name="cloud-eureka-server2" />
         <module name="cloud-consumer-order" />
         <module name="cloud-provider-payment2" />
